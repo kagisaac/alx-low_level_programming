@@ -1,0 +1,14 @@
+#!/bin/bash
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "snmpy.h"
+
+int main(void) {
+
+   char* message = sayHello();
+
+   printf("%s", message);
+
+   return 0;
+}
